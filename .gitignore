@@ -1,0 +1,10 @@
+work/
+*.wlf
+transcript
+@_opt
+_info
+*.qdb
+*.qpg
+*.qtl
+_opt__lock
+_vmake
