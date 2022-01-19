@@ -23,6 +23,10 @@ Currently, the DO file has **A LOT** of waves added to it, most of which aren't
 that important, but are useful for debugging. Feel free to remove any if it's
 to cluttered inside ModelSim.
 
+## Synthesis
+The divider is fully synthesizable and a complete synthesis flow using Synopsys
+DC_Shell can be found in `synth/`. Check the README there for details on how to
+run the flow.
 
 ## The Division Algorithm
 The quotient, $q$, is obtained by first setting the partial remainder $w$ and
