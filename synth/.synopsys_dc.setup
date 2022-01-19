@@ -3,7 +3,7 @@
 set ESF8A_lib     ""
 
 # Set which synthesis library (
-set cmhv7sf  1
+set ESF8A    0
 set AMI035   0
 set TSMC025  0
 set TSMC018  0
