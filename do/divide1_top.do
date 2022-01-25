@@ -7,13 +7,13 @@
 onbreak {resume}
 
 # create library
-#if [file exists work] {
-#    vdel -all
-#}
-#vlib work
-#
+if [file exists work] {
+    vdel -all
+}
+vlib work
+
 ## compile source files
-#vlog divide1_top.sv divide1_top_tb.sv 
+vlog ../modules/mux2.sv ../modules/mux3.sv ../modules/flopenr.sv ../modules/adder.sv ../modules/fsm.sv ../modules/divide1.sv ../modules/divide1_top.sv ../tb/divide1_top_tb.sv 
 
 # start and run simulation
 vsim -voptargs=+acc work.tb
